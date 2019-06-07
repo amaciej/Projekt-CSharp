@@ -1,0 +1,42 @@
+﻿body {
+    background: #90EE90;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    color: Black;
+    font-family: Arial, Verdana, Tahoma, Sans-Serif;
+}
+
+#wysrodkowany {
+    margin: 0px auto; /* wysrodkowanie elementu div */
+    width: 980px; /* ustawienie sztywnej szerokości */
+}
+
+#naglowek {
+    margin-top: 15px; /* margines górny */
+    margin-bottom: 15px; /* margines dolny */
+    background: white; /* ustawienie koloru tła */
+    min-height: 35px; /* minimalna wysokość kontenera */
+    width: 100%; /* szerokość 100% dziedziczona po nadrzędnym */
+    opacity: 0.9; /* przeźroczystość */
+}
+
+#menu {
+    width: 100%; /* szerokość menu */
+    min-height: 600px; /* minimalna wysokość */
+    margin:auto;
+    text-align:center;
+    background: white; /* ustawienie koloru tła */
+    opacity: 0.9; /* przeźroczystość */
+}
+
+#main {
+    margin-left: 240px; /* margines od lewej */
+    margin-right: 20px; /* margines od prawej */
+    background-color: Red; /* kolor tła */
+    min-height: 800px; /* wysokość minimalna */
+}

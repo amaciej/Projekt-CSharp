@@ -1,0 +1,292 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E135DCDB-110D-45C6-A42E-78742E27CCD6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PKS.Net</RootNamespace>
+    <AssemblyName>PKS.Net</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admininstrator.aspx" />
+    <Content Include="AdminStyle.css" />
+    <Content Include="AutokaryTab.aspx" />
+    <Content Include="DodajPas.aspx" />
+    <Content Include="Dyspozytor.aspx" />
+    <Content Include="HarmRuchuPojazd.aspx" />
+    <Content Include="Kierowca.aspx" />
+    <Content Include="KierowcyTab.aspx" />
+    <Content Include="KursyTab.aspx" />
+    <Content Include="Logowanie.aspx" />
+    <Content Include="MiastaTab.aspx" />
+    <Content Include="MojeKursy.aspx" />
+    <Content Include="OdcinekTab.aspx" />
+    <Content Include="Pasazer.aspx" />
+    <Content Include="PasazerKursTab.aspx" />
+    <Content Include="PasazerTab.aspx" />
+    <Content Include="Polaczenia.aspx" />
+    <Content Include="RapIloPas.aspx" />
+    <Content Include="RapKier.aspx" />
+    <Content Include="RapKierTrasa.aspx" />
+    <Content Include="TrasaTab.aspx" />
+    <Content Include="UzytkownicyTab.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admininstrator.aspx.cs">
+      <DependentUpon>Admininstrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admininstrator.aspx.designer.cs">
+      <DependentUpon>Admininstrator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AutokaryTab.aspx.cs">
+      <DependentUpon>AutokaryTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AutokaryTab.aspx.designer.cs">
+      <DependentUpon>AutokaryTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DodajPas.aspx.cs">
+      <DependentUpon>DodajPas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DodajPas.aspx.designer.cs">
+      <DependentUpon>DodajPas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dyspozytor.aspx.cs">
+      <DependentUpon>Dyspozytor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dyspozytor.aspx.designer.cs">
+      <DependentUpon>Dyspozytor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HarmRuchuPojazd.aspx.cs">
+      <DependentUpon>HarmRuchuPojazd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HarmRuchuPojazd.aspx.designer.cs">
+      <DependentUpon>HarmRuchuPojazd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kierowca.aspx.cs">
+      <DependentUpon>Kierowca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kierowca.aspx.designer.cs">
+      <DependentUpon>Kierowca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KierowcyTab.aspx.cs">
+      <DependentUpon>KierowcyTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KierowcyTab.aspx.designer.cs">
+      <DependentUpon>KierowcyTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="KursyTab.aspx.cs">
+      <DependentUpon>KursyTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="KursyTab.aspx.designer.cs">
+      <DependentUpon>KursyTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logowanie.aspx.cs">
+      <DependentUpon>Logowanie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logowanie.aspx.designer.cs">
+      <DependentUpon>Logowanie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MiastaTab.aspx.cs">
+      <DependentUpon>MiastaTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MiastaTab.aspx.designer.cs">
+      <DependentUpon>MiastaTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MojeKursy.aspx.cs">
+      <DependentUpon>MojeKursy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MojeKursy.aspx.designer.cs">
+      <DependentUpon>MojeKursy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OdcinekTab.aspx.cs">
+      <DependentUpon>OdcinekTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OdcinekTab.aspx.designer.cs">
+      <DependentUpon>OdcinekTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pasazer.aspx.cs">
+      <DependentUpon>Pasazer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pasazer.aspx.designer.cs">
+      <DependentUpon>Pasazer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasazerKursTab.aspx.cs">
+      <DependentUpon>PasazerKursTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasazerKursTab.aspx.designer.cs">
+      <DependentUpon>PasazerKursTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasazerTab.aspx.cs">
+      <DependentUpon>PasazerTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasazerTab.aspx.designer.cs">
+      <DependentUpon>PasazerTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Polaczenia.aspx.cs">
+      <DependentUpon>Polaczenia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Polaczenia.aspx.designer.cs">
+      <DependentUpon>Polaczenia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RapIloPas.aspx.cs">
+      <DependentUpon>RapIloPas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RapIloPas.aspx.designer.cs">
+      <DependentUpon>RapIloPas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RapKier.aspx.cs">
+      <DependentUpon>RapKier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RapKier.aspx.designer.cs">
+      <DependentUpon>RapKier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RapKierTrasa.aspx.cs">
+      <DependentUpon>RapKierTrasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RapKierTrasa.aspx.designer.cs">
+      <DependentUpon>RapKierTrasa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrasaTab.aspx.cs">
+      <DependentUpon>TrasaTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrasaTab.aspx.designer.cs">
+      <DependentUpon>TrasaTab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UzytkownicyTab.aspx.cs">
+      <DependentUpon>UzytkownicyTab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UzytkownicyTab.aspx.designer.cs">
+      <DependentUpon>UzytkownicyTab.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65129</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:65129/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

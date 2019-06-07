@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PKS.Net.Admininstrator" Collapsed="true">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAgAAAEAEEBYAIAFEgAAAIaBECAAQAoKCBABIRBAA=</HashCode>
+      <FileName>Admininstrator.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.AutokaryTab" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkwAAAAkABAQAACAAAABAAAMAQQAAAoEgAgAAJAAQA=</HashCode>
+      <FileName>AutokaryTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.DodajPas" Collapsed="true">
+    <Position X="9.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAQAQEAAAAAAAAAAAAAAFIAQAAAAAEAAAAAJAABA=</HashCode>
+      <FileName>DodajPas.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.Dyspozytor" Collapsed="true">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAEABIAIAEAgAAAIYBECAAQAgICAAAIRAAA=</HashCode>
+      <FileName>Dyspozytor.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.HarmRuchuPojazd" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAgEACAAAAAQIAEAAAAIAQAAAAAEgAAAAJAAAE=</HashCode>
+      <FileName>HarmRuchuPojazd.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.Kierowca" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAEAAABAAIAAAAAAAAJAAAAAAAgIAAAAIAAAA=</HashCode>
+      <FileName>Kierowca.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.KierowcyTab" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAQAAEABAQACCAAAAAAACIASQAAAIEgAgAAJAABA=</HashCode>
+      <FileName>KierowcyTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.KursyTab" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAABgEABIQAACQAAAAAEIMAQQAIAIEgAgAAJAAAA=</HashCode>
+      <FileName>KursyTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.Logowanie" Collapsed="true">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAgAABAAAAQAAAAAoAQAAAEAAAAAAAIAAAA=</HashCode>
+      <FileName>Logowanie.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.MiastaTab" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAEABAQAACAAAAAAAQIAQQAAAIEgAgAAJAABA=</HashCode>
+      <FileName>MiastaTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.MojeKursy" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAQAAEEAAAAAAAIAAAAAAIAQAAAAAEAAAAAIAABA=</HashCode>
+      <FileName>MojeKursy.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.OdcinekTab" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgQgAlBMgBAQAACAAAAAAAAIAQQACAIEgAgAAJQAAA=</HashCode>
+      <FileName>OdcinekTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.Pasazer" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQABAAIAAAAABAEJAAAAAAAgACAAAIBQAA=</HashCode>
+      <FileName>Pasazer.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.PasazerKursTab" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAEABAQAACAAAAAAAAIwQQQAAMEgAgAAJAAAA=</HashCode>
+      <FileName>PasazerKursTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.PasazerTab" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAQAAEABAQAAiAAAAAAABIAQQAAAIEgAgAAJAABA=</HashCode>
+      <FileName>PasazerTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.Polaczenia" Collapsed="true">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAMBEEIAAAAAAIAAAAAAIAQAAAAAEAAAAAIAAAA=</HashCode>
+      <FileName>Polaczenia.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.RapIloPas" Collapsed="true">
+    <Position X="9.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACFEAAAAAAAIAEAAAAIAQAAAAAEAAAABIAAAA=</HashCode>
+      <FileName>RapIloPas.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.RapKier" Collapsed="true">
+    <Position X="7.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAMEAAAAAAAIAEAAAAIAQAAAAAEAAAAAIAAAA=</HashCode>
+      <FileName>RapKier.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.RapKierTrasa" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAEEAAAAAAAIAAAAAAIAQAAAAAEAAAABIAAAA=</HashCode>
+      <FileName>RapKierTrasa.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.TrasaTab" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAEABASAACAAgAAAAAIAQQAAAIEgAgAAJAABA=</HashCode>
+      <FileName>TrasaTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PKS.Net.UzytkownicyTab" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQAAAAEAhAQAACAAQAAAAAIAQQBAAIEwAgAAJAEAA=</HashCode>
+      <FileName>UzytkownicyTab.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.Page" Collapsed="true">
+    <Position X="3.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
