@@ -1,0 +1,69 @@
+
+1. Otrzymaæ przebieg trasy kursu pomiêdzy punktem startowym a koñcowym.
+
+select distinct m.M_Nazwa, odt.Kolejnoœæ
+from MIEJSCOWOŒCI m
+inner join ODCINEK od on m.Id_Miejscowoœci = od.Id_Miejscowoœci_S
+inner join ODCINEK odd on m.Id_Miejscowoœci = odd.Id_Miejscowoœci_K
+inner join ODCINEK_TRASY odt on od.Id_Odcinek = odt.Id_Odcinek
+inner join TRASY t on odt.Id_Trasy = t.Id_Trasy
+where t.Id_Trasy = 1 order by odt.Kolejnoœæ;
+
+2. Otrzymaæ kierowców którzy s¹ aktualnie w trasie.
+
+select KIEROWCY.Imiê, KIEROWCY.Nazwisko
+from KIEROWCY
+inner join AUTOKARY on KIEROWCY.Id_Kierowcy = AUTOKARY.Id_Kierowcy
+inner join KURSY on AUTOKARY.Id_Autokaru = KURSY.Id_Autokaru
+where KURSY.Godz_Pocz¹tek >= '9:00:00' and KURSY.Godz_Koniec <= '11:00:00'; 
+
+3. Otrzymaæ raport tygodniowy na temat iloœci pasa¿erów korzystaj¹cych z danego kursu.
+
+select count(PASA¯EROWIE_KURSY.Id_Pasa¿er) as 'Iloœæ Pasa¿erów' 
+from PASA¯EROWIE_KURSY 
+inner join KURSY on PASA¯EROWIE_KURSY.Id_Kursy = KURSY.Id_Kursy
+where PASA¯EROWIE_KURSY.Id_Kursy = 1 and KURSY.Godz_Pocz¹tek between '2018-10-30 00:00:00' and '2018-11-06 00:00:00';
+
+4. Otrzymaæ listê po³¹czeñ pomiêdzy miejscowoœciami  dla ró¿nych kursów.
+
+select distinct m.M_Nazwa, t.Nazwa, odt.Kolejnoœæ
+from MIEJSCOWOŒCI m
+inner join ODCINEK od on m.Id_Miejscowoœci = od.Id_Miejscowoœci_S
+inner join ODCINEK odd on m.Id_Miejscowoœci = odd.Id_Miejscowoœci_K
+inner join ODCINEK_TRASY odt on od.Id_Odcinek = odt.Id_Odcinek
+inner join TRASY t on odt.Id_Trasy = t.Id_Trasy
+inner join KURSY k on odt.Id_Trasy = k.Id_Trasy
+where k.Id_Kursy = 1 or k.Id_Kursy = 3 order by odt.Kolejnoœæ ;
+
+select distinct m.M_Nazwa, t.Nazwa, m.Id_Miejscowoœci
+from MIEJSCOWOŒCI m
+inner join ODCINEK od on m.Id_Miejscowoœci = od.Id_Miejscowoœci_S
+inner join ODCINEK odd on m.Id_Miejscowoœci = odd.Id_Miejscowoœci_K
+inner join ODCINEK_TRASY odt on od.Id_Odcinek = odt.Id_Odcinek
+inner join TRASY t on odt.Id_Trasy = t.Id_Trasy
+inner join KURSY k on odt.Id_Trasy = k.Id_Trasy
+where od.Id_Miejscowoœci_S = 6 or od.Id_Miejscowoœci_K = 9 order by m.Id_Miejscowoœci;
+
+5. Otrzymaæ raport na temat iloœci pasa¿erów korzystaj¹cych z danego kursu.
+
+select count(Id_Pasa¿er) as 'Iloœæ Pasa¿erów' 
+from PASA¯EROWIE_KURSY 
+where Id_Kursy =  4;
+
+6. Otrzymaæ raport harmonogramu ruchu pojazdu po trasie, skojarzon¹ z wybranym kursem
+
+select mS.M_Nazwa as Miejscowoœæ_S, mK.M_Nazwa as Miejscowoœci_K, od.Godz_Pocz¹tek, od.Godz_Koniec, a.Id_Autokaru
+from ODCINEK od
+inner join MIEJSCOWOŒCI mS on od.Id_Miejscowoœci_S = mS.Id_Miejscowoœci
+inner join MIEJSCOWOŒCI mK on od.Id_Miejscowoœci_K = mK.Id_Miejscowoœci
+inner join ODCINEK_TRASY odt on od.Id_Odcinek = odt.Id_Odcinek
+inner join KURSY k on odt.Id_Trasy = k.Id_Trasy
+inner join AUTOKARY a on k.Id_Autokaru = a.Id_Autokaru
+where k.Id_Kursy = 1;
+
+7. Otrzymaæ raport na temat kierowców.
+
+select k.Imiê, k.Nazwisko, k.PESEL, a.Nr_Rejstracyjny, a.Marka
+from KIEROWCY k
+inner join AUTOKARY a on k.Id_Kierowcy = a.Id_Kierowcy
+where a.Id_Autokaru = 1;
