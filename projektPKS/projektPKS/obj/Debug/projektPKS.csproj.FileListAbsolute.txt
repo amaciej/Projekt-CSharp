@@ -1,0 +1,70 @@
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\bin\Debug\projektPKS.exe
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\bin\Debug\projektPKS.exe.config
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\bin\Debug\Dapper.dll
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\bin\Debug\Dapper.xml
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.Administrator.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmAdminTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmAutokaryTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmDyspozytor.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmHarmoRuchu.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmKierowca.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmKierowcyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmKursyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmLogin.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmMiejscowosciTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmOdcinekTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmOdcinek_TrasyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasazerTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasażer.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasKursTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapIloPas.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapKierTrasa.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmRejestracja.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmTrasyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.Properties.Resources.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.GenerateResource.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.CopyComplete
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.exe
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.pdb
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\bin\Debug\projektPKS.pdb
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapKier.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmAddPass.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmMojeKur.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\projektPKS\projektPKS\obj\Debug\projektPKS.frmPolaczenia.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\bin\Debug\projektPKS.exe.config
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\bin\Debug\projektPKS.exe
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\bin\Debug\projektPKS.pdb
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\bin\Debug\Dapper.dll
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\bin\Debug\Dapper.xml
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.csprojAssemblyReference.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmAddPass.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.Administrator.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmAdminTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmAutokaryTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmDyspozytor.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmHarmoRuchu.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmKierowca.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmKierowcyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmKursyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmLogin.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmMiejscowosciTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmMojeKur.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmOdcinekTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmOdcinek_TrasyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasazerTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasażer.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmPasKursTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmPolaczenia.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapIloPas.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapKier.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmRapKierTrasa.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmRejestracja.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.frmTrasyTab.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.Properties.Resources.resources
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.GenerateResource.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.CoreCompileInputs.cache
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.csproj.CopyComplete
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.exe
+C:\Users\Adam\Documents\sem. 5\SZRBD\Etap 2\projektPKS\projektPKS\obj\Debug\projektPKS.pdb
